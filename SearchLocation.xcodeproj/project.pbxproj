@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57056DB6DE46DD82CB867A0B /* Pods_SearchLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34DE19A12447EE41BBCCE36 /* Pods_SearchLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E2EA0E7C1BBA78390013B180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0E7B1BBA78390013B180 /* AppDelegate.swift */; };
-		E2EA0E7E1BBA78390013B180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0E7D1BBA78390013B180 /* ViewController.swift */; };
 		E2EA0E811BBA78390013B180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA0E7F1BBA78390013B180 /* Main.storyboard */; };
 		E2EA0E831BBA78390013B180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EA0E821BBA78390013B180 /* Assets.xcassets */; };
 		E2EA0E861BBA78390013B180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EA0E841BBA78390013B180 /* LaunchScreen.storyboard */; };
 		E2EA0E911BBA78390013B180 /* SearchLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0E901BBA78390013B180 /* SearchLocationTests.swift */; };
 		E2EA0E9C1BBA78390013B180 /* SearchLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0E9B1BBA78390013B180 /* SearchLocationUITests.swift */; };
+		E2EA0EAC1BBA7EF10013B180 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EAB1BBA7EF10013B180 /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EB01BBA80B70013B180 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EAF1BBA80B70013B180 /* SearchTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EB21BBA817C0013B180 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EB11BBA817C0013B180 /* SearchTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EB41BBA8FD70013B180 /* TopTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EB31BBA8FD70013B180 /* TopTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EB61BBA905C0013B180 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EB51BBA905C0013B180 /* SearchDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EB91BBA91C70013B180 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EB81BBA91C70013B180 /* Hotel.swift */; settings = {ASSET_TAGS = (); }; };
+		E2EA0EBB1BBA92020013B180 /* HotelFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA0EBA1BBA92020013B180 /* HotelFetcher.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0062B132723C0EC01B82F4E /* Pods-SearchLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchLocation/Pods-SearchLocation.release.xcconfig"; sourceTree = "<group>"; };
+		D34DE19A12447EE41BBCCE36 /* Pods_SearchLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB21B94D307A4E2BC8ECB4FD /* Pods-SearchLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchLocation/Pods-SearchLocation.debug.xcconfig"; sourceTree = "<group>"; };
 		E2EA0E781BBA78390013B180 /* SearchLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EA0E7B1BBA78390013B180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2EA0E7D1BBA78390013B180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2EA0E801BBA78390013B180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2EA0E821BBA78390013B180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2EA0E851BBA78390013B180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,14 @@
 		E2EA0E971BBA78390013B180 /* SearchLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EA0E9B1BBA78390013B180 /* SearchLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationUITests.swift; sourceTree = "<group>"; };
 		E2EA0E9D1BBA78390013B180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2EA0EAB1BBA7EF10013B180 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E2EA0EAF1BBA80B70013B180 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E2EA0EB11BBA817C0013B180 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		E2EA0EB31BBA8FD70013B180 /* TopTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTabBarController.swift; sourceTree = "<group>"; };
+		E2EA0EB51BBA905C0013B180 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
+		E2EA0EB81BBA91C70013B180 /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		E2EA0EBA1BBA92020013B180 /* HotelFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelFetcher.swift; sourceTree = "<group>"; };
+		E2F1D50C1BBAF18400D364A1 /* SearchLocation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchLocation-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57056DB6DE46DD82CB867A0B /* Pods_SearchLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49DB4651228787F21CA7DCF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB21B94D307A4E2BC8ECB4FD /* Pods-SearchLocation.debug.xcconfig */,
+				A0062B132723C0EC01B82F4E /* Pods-SearchLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBEA16990C839D3A0C4FE749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34DE19A12447EE41BBCCE36 /* Pods_SearchLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2EA0E6F1BBA78380013B180 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				E2EA0E8F1BBA78390013B180 /* SearchLocationTests */,
 				E2EA0E9A1BBA78390013B180 /* SearchLocationUITests */,
 				E2EA0E791BBA78390013B180 /* Products */,
+				49DB4651228787F21CA7DCF2 /* Pods */,
+				CBEA16990C839D3A0C4FE749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +134,18 @@
 		E2EA0E7A1BBA78390013B180 /* SearchLocation */ = {
 			isa = PBXGroup;
 			children = (
+				E2EA0EB71BBA91820013B180 /* Model */,
 				E2EA0E7B1BBA78390013B180 /* AppDelegate.swift */,
-				E2EA0E7D1BBA78390013B180 /* ViewController.swift */,
+				E2EA0EB31BBA8FD70013B180 /* TopTabBarController.swift */,
+				E2EA0EAB1BBA7EF10013B180 /* MapViewController.swift */,
+				E2EA0EAF1BBA80B70013B180 /* SearchTableViewController.swift */,
+				E2EA0EB11BBA817C0013B180 /* SearchTableViewCell.swift */,
+				E2EA0EB51BBA905C0013B180 /* SearchDetailViewController.swift */,
 				E2EA0E7F1BBA78390013B180 /* Main.storyboard */,
 				E2EA0E821BBA78390013B180 /* Assets.xcassets */,
 				E2EA0E841BBA78390013B180 /* LaunchScreen.storyboard */,
 				E2EA0E871BBA78390013B180 /* Info.plist */,
+				E2F1D50C1BBAF18400D364A1 /* SearchLocation-Bridging-Header.h */,
 			);
 			path = SearchLocation;
 			sourceTree = "<group>";
@@ -125,6 +168,15 @@
 			path = SearchLocationUITests;
 			sourceTree = "<group>";
 		};
+		E2EA0EB71BBA91820013B180 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2EA0EB81BBA91C70013B180 /* Hotel.swift */,
+				E2EA0EBA1BBA92020013B180 /* HotelFetcher.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2EA0EA01BBA78390013B180 /* Build configuration list for PBXNativeTarget "SearchLocation" */;
 			buildPhases = (
+				3384A37F6B4C18C1DF09DC87 /* Check Pods Manifest.lock */,
 				E2EA0E741BBA78390013B180 /* Sources */,
 				E2EA0E751BBA78390013B180 /* Frameworks */,
 				E2EA0E761BBA78390013B180 /* Resources */,
+				468703B3D0B2562E00B13E9A /* Embed Pods Frameworks */,
+				BBDBC3B679802CFA4FE36AEF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +242,7 @@
 		E2EA0E701BBA78380013B180 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "今村翔一";
 				TargetAttributes = {
@@ -253,13 +309,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3384A37F6B4C18C1DF09DC87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		468703B3D0B2562E00B13E9A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchLocation/Pods-SearchLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDBC3B679802CFA4FE36AEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchLocation/Pods-SearchLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2EA0E741BBA78390013B180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2EA0E7E1BBA78390013B180 /* ViewController.swift in Sources */,
 				E2EA0E7C1BBA78390013B180 /* AppDelegate.swift in Sources */,
+				E2EA0EB01BBA80B70013B180 /* SearchTableViewController.swift in Sources */,
+				E2EA0EB91BBA91C70013B180 /* Hotel.swift in Sources */,
+				E2EA0EB21BBA817C0013B180 /* SearchTableViewCell.swift in Sources */,
+				E2EA0EB41BBA8FD70013B180 /* TopTabBarController.swift in Sources */,
+				E2EA0EB61BBA905C0013B180 /* SearchDetailViewController.swift in Sources */,
+				E2EA0EBB1BBA92020013B180 /* HotelFetcher.swift in Sources */,
+				E2EA0EAC1BBA7EF10013B180 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +507,34 @@
 		};
 		E2EA0EA11BBA78390013B180 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB21B94D307A4E2BC8ECB4FD /* Pods-SearchLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SearchLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imamura.SearchLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchLocation/SearchLocation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E2EA0EA21BBA78390013B180 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0062B132723C0EC01B82F4E /* Pods-SearchLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SearchLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imamura.SearchLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchLocation/SearchLocation-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +605,7 @@
 				E2EA0EA21BBA78390013B180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2EA0EA31BBA78390013B180 /* Build configuration list for PBXNativeTarget "SearchLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +614,7 @@
 				E2EA0EA51BBA78390013B180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2EA0EA61BBA78390013B180 /* Build configuration list for PBXNativeTarget "SearchLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +623,7 @@
 				E2EA0EA81BBA78390013B180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
